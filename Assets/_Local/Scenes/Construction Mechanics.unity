@@ -211,46 +211,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bull Dozer 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8586773340228947724, guid: a10acadba451a9643bd9de2355620073, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8586773340228947724, guid: a10acadba451a9643bd9de2355620073, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8586773340228947724, guid: a10acadba451a9643bd9de2355620073, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7869133163671746137, guid: a10acadba451a9643bd9de2355620073, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 153934720}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a10acadba451a9643bd9de2355620073, type: 3}
---- !u!1 &153934718 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7869133163671746137, guid: a10acadba451a9643bd9de2355620073, type: 3}
-  m_PrefabInstance: {fileID: 128263881}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &153934720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153934718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 472a6be868fae9a47a60fd80d968b302, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 5
-  maxConstraint: 360
-  minConstraint: 5
 --- !u!1 &573097413
 GameObject:
   m_ObjectHideFlags: 0
